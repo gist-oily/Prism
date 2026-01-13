@@ -59,10 +59,10 @@ No write operations are performed.
   - networks.sepolia.json - rpc, explorer, and chainId configuration  
 
 - reports/  
-  - latest.report.json — example inspection output  
+  - latest.report.json - example inspection output  
 
 - logs/  
-  - prism.log — sample execution log  
+  - prism.log - sample execution log  
 
 - package.json  
   dependency manifest  
