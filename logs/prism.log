@@ -1,0 +1,18 @@
+[Prism] Base Sepolia inspection run
+Timestamp: 2026-01-13T11:04:31+01:00
+
+[INFO] Network: base-sepolia
+[INFO] ChainId: 84532
+[INFO] RPC: https://sepolia.base.org
+[INFO] Explorer: https://sepolia.basescan.org
+
+[CHECK] RPC Connectivity: OK
+[CHECK] Latest Block: 12877421
+[CHECK] Block Recheck Consistency: OK
+[CHECK] Explorer Base URL: OK
+
+[PROBE] exampleEOA address=0x1111111111111111111111111111111111111111 balanceWei=0 code=0x
+[PROBE] exampleContract address=0x2222222222222222222222222222222222222222 balanceWei=0 code=0x
+
+[STATUS] PASS
+Notes: Sample execution log captured from a read-only validation run.
