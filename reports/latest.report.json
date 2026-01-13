@@ -1,0 +1,34 @@
+{
+  "tool": "prism",
+  "reportVersion": "1.0",
+  "generatedAt": "2026-01-13T11:05:00+01:00",
+  "network": {
+    "key": "base-sepolia",
+    "chainId": 84532,
+    "rpc": "https://sepolia.base.org",
+    "explorer": "https://sepolia.basescan.org"
+  },
+  "checks": {
+    "rpcConnectivity": "ok",
+    "latestBlock": 12877421,
+    "blockRecheckConsistency": "ok",
+    "explorerBaseUrl": "ok"
+  },
+  "probes": {
+    "exampleEOA": {
+      "address": "0x1111111111111111111111111111111111111111",
+      "balanceWei": "0",
+      "code": "0x"
+    },
+    "exampleContract": {
+      "address": "0x2222222222222222222222222222222222222222",
+      "balanceWei": "0",
+      "code": "0x"
+    }
+  },
+  "status": "PASS",
+  "notes": [
+    "Sample output format for CI/manual review.",
+    "Probe addresses are placeholders for repeatable read-only checks."
+  ]
+}
